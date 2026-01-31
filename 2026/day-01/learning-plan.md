@@ -4,7 +4,7 @@
 - 4-6 hrs on weekends
 - 3 posts on linkdin everyweek
 ## My Current Position
-- My role is to maintain college web server and deploy applicaiton using apache and nginx web server
+- My role is to maintain college web server and deploy application using apache and nginx web server
 - Build, Test and Deplkoy web application using docker
 
 # Three goals towards 90days devops
