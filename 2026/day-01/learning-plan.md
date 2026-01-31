@@ -4,7 +4,7 @@
 - 4-6 hrs on weekends
 - 3 posts on linkdin everyweek
 ## My Current Position
-- My role is to maintain college web server, deploy apllication and minimize cost and maximize CPu Utilization.
+- My role is to maintain college web server, deploy application and minimize cost and maximize CPu Utilization.
 - Build, Test and Deplkoy web application using docker
 
 # Three goals towards 90days devops
@@ -29,7 +29,7 @@
    - Impelment rollback & approvals
 2. Containerization & Kubernetes
    - Create dockerfiles
-   - deploy on Kubernetes/EKS
+   - Deploy on Kubernetes/EKS
    - Use Helm
    - Configure Ingress/HPA, ConfigMaps, Secrets
 3. Cloud Infrastructure & IaaC
@@ -38,8 +38,5 @@
    - Write Terraform/ CloudFormation
    - Manage environment (dev/stag/prod)
    - Apply Security
-
-   - 
-   - 
 
 
