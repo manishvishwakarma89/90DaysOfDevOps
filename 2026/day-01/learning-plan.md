@@ -5,7 +5,7 @@
 - 3 posts on linkdin everyweek
 ## My Current Position
 - My role is to maintain college web server, deploy application and minimize cost and maximize CPu Utilization.
-- Build, Test and Deplkoy web application using docker
+- Build, Test and Deploy web application using docker
 
 # Three goals towards 90days devops
 1. Deploy a production based 3-tier application on K8s
