@@ -21,6 +21,25 @@
    - Montioring tools i.e. Grafana dashobards
    - Logging: Loki
    - Alerts: CPU, Memory, Pod restart, HTTP errors
+# Three Core Devops Skills want to build
+1. CI/CD Automation
+   - Write Jenkinsfile/GitHub Actions/ GitLab CI
+   - Build and push docker images
+   - Handle secrets
+   - Impelment rollback & approvals
+2. Containerization & Kubernetes
+   - Create dockerfiles
+   - deploy on Kubernetes/EKS
+   - Use Helm
+   - Configure Ingress/HPA, ConfigMaps, Secrets
+3. Cloud Infrastructure & IaaC
+   - Designing and managing cloud infrastructure using code using Terraform & CloudFormation
+   - Use AWS core services (EC2, VPC, IAM, RDS, S3)
+   - Write Terraform/ CloudFormation
+   - Manage environment (dev/stag/prod)
+   - Apply Security
 
+   - 
+   - 
 
 
