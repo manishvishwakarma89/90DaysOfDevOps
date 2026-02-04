@@ -19,3 +19,14 @@ The kernel runs in kernel space, which has full access to hardware.
 
 Check kernel version:
 uname -r
+## 1.3 User Space
+
+User space is where applications and user processes run. Programs here do not access hardware directly; they use system calls to interact with the kernel.
+
+User space components:
+
+Applications (nginx, docker, mysql, python)
+
+Shells (bash, zsh)
+
+System utilities (ls, ps, top)
