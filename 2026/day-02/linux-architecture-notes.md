@@ -15,3 +15,7 @@ File system management (ext4, xfs, etc.)
 Device management (drivers)
 Networking (TCP/IP stack)
 Security (permissions, SELinux, AppArmor)
+The kernel runs in kernel space, which has full access to hardware.
+
+Check kernel version:
+uname -r
