@@ -47,10 +47,36 @@ Foreground process – runs in the terminal
 Background process – runs behind the terminal
 Daemon process – long-running service (nginx, sshd)
 ## 2.3 Process States
-State	Meaning
-R	Running
-S	Sleeping
-D	Uninterruptible sleep
-T	Stopped
-Z	Zombie
+### State	Meaning
+R	Running;
+S	Sleeping;
+D	Uninterruptible sleep;
+T	Stopped;
+Z	Zombie;
+## 2.4 Viewing and Managing Processes
+Common commands:
+ps -ef
+ps aux
+top
+htop
+Kill processes:
+kill PID
+kill -9 PID
+pkill nginx
+
+# 3. systemd – Service and System Manager
+## 3.1 What is systemd?
+systemd is the modern init system and service manager used by most Linux distributions.
+
+It is responsible for:
+Booting the system
+Starting and stopping services
+Managing dependencies
+Logging
+Handling system states
+systemd always runs as PID 1.
+Check:
+ps -p 1
+
+
 
