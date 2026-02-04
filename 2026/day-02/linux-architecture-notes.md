@@ -30,3 +30,27 @@ Applications (nginx, docker, mysql, python)
 Shells (bash, zsh)
 
 System utilities (ls, ps, top)
+
+##  1.4 Init System (systemd)
+The init system is the first process started by the kernel (PID 1).
+Modern Linux distributions use systemd as the init system.
+# 2. Process Management in Linux
+A process is an instance of a running program.
+## 2.1 Process Creation
+fork: A new process is created using fork()
+exec: The new process may replace its memory using exec()
+PID: Every process has a unique PID (Process ID)
+Processes form a parent-child hierarchy
+PID 1 is always the init/systemd process.
+## 2.2 Process Types
+Foreground process – runs in the terminal
+Background process – runs behind the terminal
+Daemon process – long-running service (nginx, sshd)
+## 2.3 Process States
+State	Meaning
+R	Running
+S	Sleeping
+D	Uninterruptible sleep
+T	Stopped
+Z	Zombie
+
