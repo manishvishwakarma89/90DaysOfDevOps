@@ -78,5 +78,48 @@ systemd always runs as PID 1.
 Check:
 ps -p 1
 
+## 3.2 systemctl (systemd Control Tool)
+systemctl start nginx
+systemctl stop nginx
+systemctl restart nginx
+systemctl status nginx
+
+Enable or disable services at boot:
+
+systemctl enable nginx
+systemctl disable nginx
+
+## 3.3 systemd Unit Files
+Unit files define how services behave.
+Common locations:
+/etc/systemd/system/
+/usr/lib/systemd/system/
+Example unit file:
+[Unit]
+Description=My Application
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
+Reload systemd after changes:
+systemctl daemon-reload
+
+## 4. Logging with journald
+systemd includes its own logging system called journald.
+View logs:
+journalctl
+journalctl -u nginx
+journalctl -xe
+
+Live logs:
+journalctl -f
+
+
+
 
 
